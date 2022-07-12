@@ -1,5 +1,5 @@
 const Locations = () => {
-	return <div>Hello</div>;
+	return <div>Hello WKS</div>;
 };
 
 export default Locations;
