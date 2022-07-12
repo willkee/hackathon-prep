@@ -51,15 +51,15 @@ npm run build fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-Hackathon Prepwork
+## Hackathon Prepwork
 
-Global Commands
+### Global Commands
 
-Front-End Commands
+### Front-End Commands
 
-Back-End Commands
+### Back-End Commands
 
-Git Commands
+### Git Commands
 
 -   git init
 -   git add .
