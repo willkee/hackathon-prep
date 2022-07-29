@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Hackathon Prepwork
 
 ### Global Commands
@@ -23,7 +22,7 @@ Make a new branch and switch to that branch as the current active branch.
 RESOLVING CONFLICTS
 
 -   To resolve a conflict between two branches, merge branches together, resolve conflicts via Github Interface, then merge last branch to main.
-=======
+
 # Getting Started with Create React App
 
 ## This project was bootstrapped with Create React App.
@@ -86,12 +85,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/t
 ## Front-End
 
 ### Framework/Libraries
+
 -   Javascript
 -   React
 -   Redux (Maybe)
 -   Node
 
 ### Commands
+
 -   Filler
 -   Filler
 -   Filler
@@ -100,12 +101,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/t
 ## Back-End
 
 ### Framework/Libraries
+
 -   Python
 -   Flask
 -   SQLAlchemy
 -   PostgreSQL
 
 ### Commands
+
 -   Filler
 -   Filler
 -   Filler
@@ -127,6 +130,3 @@ Make a new branch and switch to that branch as the current active branch.
 RESOLVING CONFLICTS
 
 -   To resolve a conflict between two branches, merge branches together, resolve conflicts via Github Interface, then merge last branch to main.
-
-
->>>>>>> 1c143cb9a52adea38c9a585395267d52c9d2344c
