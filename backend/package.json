@@ -8,7 +8,7 @@
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"rebuild": "npx dotenv sequelize db:migrate:undo:all && npx dotenv sequelize db:migrate && npx dotenv sequelize db:seed:all",
+		"rebuild": "npx dotenv sequelize-cli db:seed:undo:all && npx dotenv sequelize db:migrate:undo:all && npx dotenv sequelize db:migrate && npx dotenv sequelize db:seed:all",
 		"start": "per-env",
 		"start:development": "nodemon -r dotenv/config ./bin/www",
 		"start:production": "node ./bin/www"
@@ -21,6 +21,8 @@
 		"express": "^4.18.1",
 		"express-async-handler": "^1.2.0",
 		"express-validator": "^6.14.2",
+		"faker": "^5.5.3",
+		"path": "^0.12.7",
 		"per-env": "^1.0.2",
 		"pg": "^8.7.3",
 		"sequelize": "^5.22.5",

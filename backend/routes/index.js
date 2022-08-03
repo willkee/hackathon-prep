@@ -1,6 +1,10 @@
 const express = require("express");
 const router = express.Router();
 
+const apiRouter = require("./api/index");
+
+router.use("/api", apiRouter);
+
 if (process.env.NODE_ENV === "production") {
 	const path = require("path");
 	// Serve the frontend's index.html file at the root route
@@ -22,3 +26,5 @@ if (process.env.NODE_ENV === "production") {
 		);
 	});
 }
+
+module.exports = router;
